@@ -1,0 +1,28 @@
+{
+  "name": "whatsapp-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon  server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/should-be-happy/WHATSUP-COLONE.git"
+  },
+  "author": "Nahdi Ghaith && me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/should-be-happy/WHATSUP-COLONE/issues"
+  },
+  "homepage": "https://github.com/should-be-happy/WHATSUP-COLONE#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.2",
+    "pusher": "^5.2.0"
+  }
+}
