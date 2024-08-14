@@ -47,7 +47,7 @@ const pusher = new Pusher({
     key: "63ee1225bb81547a684d",
     secret: "8ec90e46a0129b3a49fd",
     cluster: "eu",
-    useTLS: true
+    useTLS: true,
   });
 
 
