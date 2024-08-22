@@ -15,8 +15,7 @@ const PORT = 5000
 const db = mongoose.connection;
 
 db.once('open',()=>{
-    console.log("DB IS CONNECTED ")    // this like useEffect in data base when this open this goona be working
-    
+  // @ app founder nahdi ghait 
     const msgCollection  = db.collection("messagecontents")
    
     const changeStream  = msgCollection.watch()
